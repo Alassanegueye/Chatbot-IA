@@ -1,0 +1,126 @@
+# ===============================
+
+# 🔐 FICHIERS SENSIBLES
+
+# ===============================
+
+.env
+.env.*
+*.env
+
+# Clés API / secrets
+
+secrets.json
+config.py
+*.key
+*.pem
+
+# ===============================
+
+# 🐍 PYTHON
+
+# ===============================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Fichiers compilés
+
+*.so
+
+# Base de données
+
+*.sqlite3
+*.db
+
+# ===============================
+
+# 📦 ENVIRONNEMENTS VIRTUELS
+
+# ===============================
+
+venv/
+env/
+ENV/
+.venv/
+
+# ===============================
+
+# 🧪 TESTS / COVERAGE
+
+# ===============================
+
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+htmlcov/
+
+# ===============================
+
+# 📊 JUPYTER
+
+# ===============================
+
+.ipynb_checkpoints
+
+# ===============================
+
+# ⚙️ IDE / EDITEURS
+
+# ===============================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+
+# 🖥️ SYSTEME
+
+# ===============================
+
+.DS_Store
+Thumbs.db
+
+# ===============================
+
+# 📁 LOGS
+
+# ===============================
+
+*.log
+
+# ===============================
+
+# 🚀 BUILD / DIST
+
+# ===============================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===============================
+
+# 📡 STREAMLIT (optionnel)
+
+# ===============================
+
+.streamlit/
+
+# ===============================
+
+# 🔒 AUTRES
+
+# ===============================
+
+credentials.json
+token.json
