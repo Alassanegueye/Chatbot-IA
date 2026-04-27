@@ -88,6 +88,10 @@ def health():
         "model": "claude-haiku-4-5-20251001",
     }
 
+# ✅ AJOUT ICI (PING)
+@app.get("/ping")
+def ping():
+    return {"status": "alive"}
 
 @app.post("/chat")
 async def chat(req: ChatRequest):
